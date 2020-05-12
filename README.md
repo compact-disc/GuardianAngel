@@ -45,7 +45,12 @@ ___
   * HTML template engine for Java and Spring.
 * [MariaDB](https://mariadb.org/)
   * Store user's Tweets for analyzing and displaying later.
+
+#### Complete Documentation
+* Created using Javadoc
+* Live version located [https://compact-disc.github.io/guardianangel/javadocs](https://compact-disc.github.io/guardianangel/javadocs/)
 ___
 
 #### Addtional Notes
 * The Stanford Core NLP models are not included as they are too large for GitHub. They can be found [here](https://stanfordnlp.github.io/CoreNLP/).
+* API Keys for Twitter, Cloudinary, and Auth0 are removed.
