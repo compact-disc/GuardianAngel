@@ -1,0 +1,161 @@
+/* Current Fonts */
+@font-face {
+    font-family: 'bitstream_vera_sans_monobold';
+    src: url('../css/fonts/veramobd-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramobd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoBdOb';
+    src: url('../css/fonts/veramobi-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramobi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoOb';
+    src: url('../css/fonts/veramoit-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramoit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoroman';
+    src: url('../css/fonts/veramono-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* End Current Fonts */
+
+#adminBody {
+  background-color: #e5e5e5;
+}
+
+#colors {
+  text-align: center;
+  line-height: 135%;
+}
+
+#adminMain {
+  margin-top: 160px;
+  text-align: center;
+  font-family: bitstream_vera_sans_monoroman;
+}
+
+#getOtherUserTextBox {
+  font-size: 15px;
+  font-family: bitstream_vera_sans_monoroman;
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  margin-top: 7px;
+  padding: 15px 15px 15px 0;
+}
+
+#getOtherUserButton {
+  font-size: 15px;
+  font-family: bitstream_vera_sans_monoroman;
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  margin-top: 7px;
+  padding: 10px 10px;
+}
+
+#addAdminTextBox {
+  font-size: 15px;
+  font-family: bitstream_vera_sans_monoroman;
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  margin-top: 7px;
+  padding: 15px 15px 15px 0;
+}
+
+#addAdminButton {
+  font-size: 15px;
+  font-family: bitstream_vera_sans_monoroman;
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  margin-top: 7px;
+  padding: 10px 10px;
+}
+
+#testButton {
+  font-size: 15px;
+  font-family: bitstream_vera_sans_monoroman;
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  margin-top: 7px;
+  padding: 10px 10px;
+}
+
+#sortTweetsButton {
+  font-size: 15px;
+  font-family: bitstream_vera_sans_monoroman;
+  text-align: center;
+  display: inline;
+  width: 20%;
+  margin-top: 7px;
+  padding: 10px 10px;
+}
+
+#viewBySelector {
+  display: inline;
+  font-size: 15px;
+  font-family: bitstream_vera_sans_monoroman;
+  width: 10%;
+  padding: 8px 16px;
+}
+
+.tweetTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  height: 100%;
+}
+
+.tcell {
+  height: 75px;
+}
+
+.tweet {
+  text-align: center;
+  height: 100%;
+  position: inherit;
+  padding-top: 15px;
+}
+
+hr {
+  padding: 0px;
+}
+
+.graphImage {
+  width: 80%;
+}
+
+/*
+* Column formatting below
+*/
+
+.content-column{
+  float: left;
+  width: 50%;
+}
+
+.content-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

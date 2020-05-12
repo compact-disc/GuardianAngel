@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<title>Guardian Angel</title>
+<header id=mainHeader>
+	<div class="headDiv">
+		<h2 id=mainHeaderName>Guardian Angel</h2>
+	</div>
+</header>
+</head>
+<body id="loginBody">
+	<div id="loginMain">
+		<div id="signinDiv">
+			<div>You will be automatically redirected.</div>
+			<div>If you are not automatically redirected to login, click below</div>
+			<br>
+			<a th:action="@{/login}" href="/login"> <img id="loginButton"src="/images/sign-in-with-twitter-gray.png"></a>
+			<meta http-equiv = "refresh" content = "1; url = /login" />
+		</div>
+	</div>
+</body>
+<footer>
+	<div class="footer">
+		<div class="footer-content">
+			Guardian Angel
+		</div>
+	</div>
+</footer>
+</html>

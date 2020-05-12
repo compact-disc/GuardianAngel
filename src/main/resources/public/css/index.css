@@ -1,0 +1,74 @@
+/* Current Fonts */
+@font-face {
+    font-family: 'bitstream_vera_sans_monobold';
+    src: url('../css/fonts/veramobd-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramobd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoBdOb';
+    src: url('../css/fonts/veramobi-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramobi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoOb';
+    src: url('../css/fonts/veramoit-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramoit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoroman';
+    src: url('../css/fonts/veramono-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* End Current Fonts */
+
+#indexBody {
+  background-color: #e5e5e5;
+}
+
+#indexMain {
+  margin-top: 160px;
+  text-align: center;
+  font-family: bitstream_vera_sans_monoroman;
+}
+
+.content-column{
+  float: left;
+  width: 40%;
+}
+
+.content-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#content {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+#pullDataButton {
+  margin-top: 17%;
+  font-size: 10px;
+  font-family: bitstream_vera_sans_monoroman;
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+  height: 55px;
+}
+
+#twitter-logo {
+  width: 30%;
+}

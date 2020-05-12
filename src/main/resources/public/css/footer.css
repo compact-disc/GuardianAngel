@@ -1,0 +1,51 @@
+/* Current Fonts */
+@font-face {
+    font-family: 'bitstream_vera_sans_monobold';
+    src: url('../css/fonts/veramobd-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramobd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoBdOb';
+    src: url('../css/fonts/veramobi-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramobi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoOb';
+    src: url('../css/fonts/veramoit-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramoit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bitstream_vera_sans_monoroman';
+    src: url('../css/fonts/veramono-webfont.woff2') format('woff2'),
+         url('../css/fonts/veramono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* End Current Fonts */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #23374d;
+  height: 30px;
+}
+
+.footer-content {
+	font-family: bitstream_vera_sans_monoroman;
+	color: white;
+	padding-top: 7px;
+	padding-right: 20px;
+  text-align: right;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<title>Guardian Angel</title>
+<header id=mainHeader>
+	<div class="headDiv">
+		<h2 id=mainHeaderName>Guardian Angel</h2>
+			<ul class="menuList">
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="/">Home</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="/viewtweets">View Tweets</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="/faq">FAQ</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="/admin">Admin</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="/logout">Logout</a></li>
+			</ul>
+		</div>
+</header>
+</head>
+<body id="indexBody">
+	<div id="indexMain">
+		<div class="content-row">
+			<div class="content-column">
+				<div id="content">
+					<button id="pullDataButton" type="button" onclick="window.location.href = '/pullData'"><h2>Pull Twitter Data</h2></button>
+					<br>
+					<br>
+					<img id="twitter-logo" src="/images/Twitter_Social_Icon_Rounded_Square_Color.png"></img>
+				</div>
+			</div>
+			<div class="content-column">
+				<div id="content">
+					<h2>Welcome to Guardian Angel - Alpha!</h2>
+					Guardian Angel is an application that collects Twitter data to analyze. It uses The Stanford Natural Language Processing Group’s CoreNLP library to scan tweets for sentiment analysis. Each tweet is given a score ranging from zero to four. Zero is the most negative and four being the most positive score given. Each tweet is also given a sentiment type ranging from very negative to very positive.
+					<br>
+					<br>
+					By clicking the "Pull Tweets" button you are consenting to have all of your recent Twitter data pulled directly from Twitter and stored in the Guardian Angel database. After clicking the “Pull Tweets” button all of the tweets collected and analyzed will be displayed on the "View Tweets" page.
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+	<div class="footer">
+		<div class="footer-content">
+			Guardian Angel
+		</div>
+	</div>
+</footer>
+</html>

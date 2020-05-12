@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/admin.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<title>Guardian Angel</title>
+<header id=mainHeader>
+	<div class="headDiv">
+		<h2 id=mainHeaderName>Guardian Angel</h2>
+			<ul class="menuList">
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="/">Home</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="/viewtweets">View Tweets</a></li>
+				<li class="headerMenuItem"><a class="headerMenuItemClass" href="/faq">FAQ</a></li>
+        <li class="headerMenuItem"><a class="headerMenuItemClass" href="/admin">Admin</a></li>
+        <li class="headerMenuItem"><a class="headerMenuItemClass" href="/logout">Logout</a></li>
+			</ul>
+		</div>
+</header>
+</head>
+<body id="adminBody">
+	<div id="adminMain">
+    <h2>Admin</h2>
+		<form action="#" th:action="@{/test}" method="post">
+			<button id="testButton" type="submit"/>Test</button>
+		</form>
+		<br>
+    Pull Data of Another Twitter User
+    <br>
+		<form action="#" th:action="@{/adminPullOtherTweets}" th:object="${otherUsername}" method="post">
+		  <input id="getOtherUserTextBox" type="text" th:field="*{username}" placeholder="Twitter Username"/>
+			<br>
+		  <input id="getOtherUserButton" type="submit"/>
+		</form>
+		<br>
+		<br>
+		Add Administrator
+		<form action="#" th:action="@{/addAdmin}" th:object="${adminUsername}" method="post">
+			<input id="addAdminTextBox" type="text" th:field="*{username}" placeholder="Twitter Username"/>
+			<br>
+			<input id="addAdminButton" type="submit"/>
+		</form>
+    <br>
+    <br>
+    <h2>Tweet Database</h2>
+		<br>
+		<hr noshade>
+		<form id="sortForm" th:object="${sortOptions}" method="post" th:action="@{/admin}">
+			<button id="sortTweetsButton" type="submit"/>Sort</button>
+			<label for="viewBySelector">View By:</label>
+			<select id="viewBySelector" th:field="*{viewBy}">
+				<option th:each="dropdownValue: ${viewByOptions}" th:value="${dropdownValue}" th:text="${dropdownValue}"></option>
+			</select>
+		</form>
+		<br>
+		<hr noshade>
+		<div class="content-row">
+			<div class="content-column">
+				<div id="content">
+					<br>
+					<div id="colors">
+						Red is Very Negative <br>
+						Yellow is Negative <br>
+						Purple is Neutral <br>
+						Green is Positive <br>
+						Blue is Very Positive <br>
+					</div>
+					<br>
+					<table class="tweetTable">
+						<tr>
+							<th>Date</th>
+							<th>Name</th>
+							<th>Content</th>
+							<th>Sentiment Type</th>
+							<th>Sentiment Score</th>
+						</tr>
+						<tr th:each="data : ${tableData}">
+							<td class="tcell" th:utext="${data.date}"></td>
+							<td class="tcell" th:utext="${data.name}"></td>
+							<td class="tcell" th:utext="${data.content}"></td>
+							<td class="tcell" th:utext="${data.sentimentType}"></td>
+							<td class="tcell" th:utext="${data.sentimentScore}"></td>
+						</tr>
+					</table>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+			<div class="content-column">
+				<div id="content">
+					<br>
+					<tr th:each="chartData : ${chartData}">
+						<td th:utext="${chartData}"></td>
+						<br>
+						<br>
+						<br>
+					</tr>
+				</div>
+			</div>
+		</div>
+  </div>
+</body>
+<footer>
+	<div class="footer">
+		<div class="footer-content">
+			Guardian Angel
+		</div>
+	</div>
+</footer>
+</html>

@@ -1,0 +1,50 @@
+plugins {
+	id 'org.springframework.boot' version '2.2.2.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+}
+
+group = 'com.guardianangel'
+version = '1.0.0'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	
+	// https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp
+	compile group: 'edu.stanford.nlp', name: 'stanford-corenlp', version: '3.9.2'
+	//Models for Stanford Core NLP
+	compile files('./lib/stanford-corenlp-3.9.2-models.jar')
+	
+	// https://mvnrepository.com/artifact/org.knowm.xchart/xchart
+	compile group: 'org.knowm.xchart', name: 'xchart', version: '3.6.1'
+	// https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client
+	compile group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.4.3'
+	// https://mvnrepository.com/artifact/org.twitter4j/twitter4j-core
+	compile group: 'org.twitter4j', name: 'twitter4j-core', version: '4.0.7'
+	// https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf-spring4
+	compile group: 'org.thymeleaf', name: 'thymeleaf-spring4', version: '3.0.11.RELEASE'
+	// https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-springsecurity4
+	compile group: 'org.thymeleaf.extras', name: 'thymeleaf-extras-springsecurity4', version: '3.0.4.RELEASE'
+	
+	// https://mvnrepository.com/artifact/com.cloudinary/cloudinary-http44
+	compile group: 'com.cloudinary', name: 'cloudinary-http44', version: '1.25.0'
+	
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    
+    implementation 'org.thymeleaf:thymeleaf-spring4'
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity4'
+    
+    implementation 'com.github.zhanhb:thymeleaf-layout-dialect:2.4.1'
+    implementation 'com.konghq:unirest-java:3.1.02' 
+    implementation 'com.auth0:mvc-auth-commons:1.0.11'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+    testImplementation 'org.hamcrest:java-hamcrest:2.0.0.0'
+}
