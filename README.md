@@ -6,6 +6,11 @@ Version: 1.0.0
 ___
 
 Indiana University-Bloomington
+
+Christopher DeRoche, Computer Science, B.S.
+
+Professor Apu Kapadia, Ph.D.
+
 * Fall 2019
   * CSCI-Y 390 Independent Study (3 Credits)
 * Spring 2020
@@ -47,24 +52,31 @@ ___
   * Store user's Tweets for analyzing and displaying later.
 
 #### Complete Documentation
-* Created using Javadoc
-* Live version located [https://compact-disc.github.io/guardianangel/javadocs](https://compact-disc.github.io/guardianangel/javadocs/)
+* Created using Javadoc.
+* Live version located at [https://compact-disc.github.io/guardianangel/javadocs](https://compact-disc.github.io/guardianangel/javadocs/).
 ___
 
 #### Addtional Notes
 * The Stanford Core NLP models are not included as they are too large for GitHub. They can be found [here](https://stanfordnlp.github.io/CoreNLP/).
 * Stanford Core NLP [English models download](http://nlp.stanford.edu/software/stanford-corenlp-4.0.0-models-english.jar).
 * API Keys for Twitter, Cloudinary, and Auth0 are removed.
+* Truncated SQL file "guardian_angel.sql".
 
 ___
 
-# Images
+# Live Demo Video - Click to View
+[![demovideo](readme/demovideo.png)](https://www.youtube.com/watch?v=QY3EocGs8MI)
+
+___
+
+# Live Demo Images
 #### Auth0 Login Page
 ![auth0login](readme/auth0.png)
 #### Index of the Site
 ![index](readme/home.png)
 #### Viewing Tweets
 ![viewtweets1](readme/viewtweets.png)
+
 ![viewtweets2](readme/viewtweets2.png)
 #### Twitter OAuth Sign in
 ![twittersignin](readme/twitter-oauth-login.png)
@@ -72,4 +84,5 @@ ___
 ![admin](readme/admin.png)
 #### User Graph Examples (Generated using XChart)
 ![graph1](readme/graph1.png)
+
 ![graph2](readme/graph2.png)
