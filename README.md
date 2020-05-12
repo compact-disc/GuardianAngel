@@ -55,3 +55,21 @@ ___
 * The Stanford Core NLP models are not included as they are too large for GitHub. They can be found [here](https://stanfordnlp.github.io/CoreNLP/).
 * Stanford Core NLP [English models download](http://nlp.stanford.edu/software/stanford-corenlp-4.0.0-models-english.jar).
 * API Keys for Twitter, Cloudinary, and Auth0 are removed.
+
+___
+
+# Images
+#### Auth0 Login Page
+![auth0login](readme/auth0.png)
+#### Index of the Site
+![index](readme/home.png)
+#### Viewing Tweets
+![viewtweets1](readme/viewtweets.png)
+![viewtweets2](readme/viewtweets2.png)
+#### Twitter OAuth Sign in
+![twittersignin](readme/twitter-oauth-login.png)
+#### Administration Page
+![admin](readme/admin.png)
+#### User Graph Examples (Generated using XChart)
+![graph1](readme/graph1.png)
+![graph2](readme/graph2.png)
