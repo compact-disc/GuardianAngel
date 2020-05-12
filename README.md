@@ -64,6 +64,17 @@ ___
 
 ___
 
+#### Demo Notes
+###### User Side:
+
+Initially users are brought to the Auth0 login page when first logging into the site. Next, they are directed towards Twitter's OAuth login page to sign in with Twitter and authorize the Guardian Angel application if they have not used it before. After login, the user is brought to the home page. Displayed on the index is a quick disclaimer and a navigation bar at the top. The index includes a button to pull the user's data however there is also one located in the View Tweets page. From the View Tweets page the users can view 4 different categories of data. They will be able to view their Timeline, Likes, Retweets, and Mentions. Each has a table and graphs with it. Guardian Angel even has a button to delete data. This removes all their Tweet and image data stored. Users are also removed from totals stored in the site as well. Located on the site is also a small FAQ page for new users who would join the site.
+
+###### Administrative Side:
+
+A small administration page for authorized administrators to view and do a few extra things along with a test button that can be setup to test new functions on the site. Another option to pull data of other public users on Twitter and an option to add additional administrators. The entire Tweet database is shown for the administrators along with graphs that represent all tweets in the database for each category. The same categories are shown for the administrative view Timeline, Likes, Retweets, and Mentions.
+
+___
+
 # Live Demo Video - Click to View
 [![demovideo](readme/demovideo.png)](https://www.youtube.com/watch?v=QY3EocGs8MI)
 
