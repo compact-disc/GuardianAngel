@@ -53,4 +53,5 @@ ___
 
 #### Addtional Notes
 * The Stanford Core NLP models are not included as they are too large for GitHub. They can be found [here](https://stanfordnlp.github.io/CoreNLP/).
+* Stanford Core NLP [English models download](http://nlp.stanford.edu/software/stanford-corenlp-4.0.0-models-english.jar).
 * API Keys for Twitter, Cloudinary, and Auth0 are removed.
