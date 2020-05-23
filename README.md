@@ -7,14 +7,16 @@ ___
 
 Indiana University-Bloomington
 
-Christopher DeRoche, Computer Science, B.S.
+* Christopher DeRoche, Computer Science, B.S.
 
-Professor Apu Kapadia, Ph.D.
+  * Fall 2019
+    * CSCI-Y 390 Independent Study (3 Credits)
+  * Spring 2020
+    * CSCI-Y 390 Independent Study (3 Credits)
 
-* Fall 2019
-  * CSCI-Y 390 Independent Study (3 Credits)
-* Spring 2020
-  * CSCI-Y 390 Independent Study (3 Credits)
+
+* Professor Apu Kapadia, Ph.D.
+
 ___
 
 #### The Problem
