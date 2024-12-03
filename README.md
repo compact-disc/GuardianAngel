@@ -2,21 +2,6 @@
 An online tool to analyze your Twitter activity and visually report the results to you.
 
 Version: 1.0.0
-
-___
-
-Indiana University-Bloomington
-
-* Christopher DeRoche, Computer Science, B.S.
-
-  * Fall 2019
-    * CSCI-Y 390 Independent Study (3 Credits)
-  * Spring 2020
-    * CSCI-Y 390 Independent Study (3 Credits)
-
-
-* Professor Apu Kapadia, Ph.D.
-
 ___
 
 #### The Problem
